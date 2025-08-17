@@ -1,0 +1,61 @@
+/* Styles for the Feature Section component */
+.feature-section {
+  width: 100%;
+  display: flex;
+  font-family: 'Acme', sans-serif;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.tilt-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tilt-box-container:hover {
+  transform: scale(1.05); /* Slightly scale the box on hover */
+}
+
+.tilt-box-container:active {
+  transform: scale(1.1); /* Scale up when clicked */
+}
+
+.box {
+  width: 30%;
+}
+
+.text-container {
+  width: 55%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #063611;
+  border-radius: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #5b5f00;
+  text-align: center;
+}
