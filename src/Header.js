@@ -4,15 +4,9 @@ import './Header.css'; // Import your CSS here
 function Header() {
   return (
     <header>
-      <div className="logo">
-        <img src="/logo.png" alt="Logo" />
-      </div>
+
       <nav>
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">AI</a>
-        <a href="#">Features</a>
-        <a href="#">Contact</a>
       </nav>
       <div className="login">
         <button onClick={() => changeButtonColor()}>Login</button>
